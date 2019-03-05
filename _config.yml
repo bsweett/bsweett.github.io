@@ -14,7 +14,6 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Benjamin Sweett
-email: ben@sweett.dev
 description: >- # this means to ignore newlines until "baseurl:"
   Personal website and blog
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -22,8 +21,18 @@ url: "https://sweett.dev" # the base hostname & protocol for your site, e.g. htt
 twitter_username: bensweett1
 github_username:  bsweett
 show_downloads: false
+
+
+role: Senior iOS Developer
+
+minima:
+  social_links:
+    twitter: bensweett1
+    github: bsweett
+    instagram: ben.sweett
+    linkedin: bensweett
   
 #google_analytics: UA-18658848-6
 
 # Build settings
-theme: jekyll-theme-midnight
+theme: minima
